@@ -1,4 +1,4 @@
-package com.knoldus.junit.example.demo.assertion;
+package com.knoldus.junit5.example.demo.assertion;
 
 
 import org.junit.Test;
@@ -29,8 +29,8 @@ public class AssertionsTests {
 	public void exceptionTesting() {
 		Throwable exception = assertThrowsExactly(IllegalArgumentException.class,
 				() -> {
-					throw new IllegalArgumentException("a message");
+					throw new IllegalArgumentException("Invalid message");
 				});
-		assertEquals("a message", exception.getMessage());
+		assertEquals("Invalid message", exception.getMessage());
 	}
 }

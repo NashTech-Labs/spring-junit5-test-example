@@ -1,4 +1,4 @@
-package com.knoldus.junit.example.demo.standard;
+package com.knoldus.junit5.example.demo.standard;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
@@ -41,11 +41,11 @@ public class StandardTests {
 	@Test
 	@DisplayName("😱")
 	void testWithDisplayNameContainingEmoji() {
-		/**
-		 * http://getemoji.com/
-		 */
-	}
 
+	}
+	/**
+	 * <a href="http://getemoji.com/">...</a>
+	 */
 	@AfterEach
 	void tearDown() {
 		System.out

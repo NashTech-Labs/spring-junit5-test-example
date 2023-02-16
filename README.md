@@ -1,4 +1,4 @@
-# junit5-demo
+# spring-junit5-demo
 
 ### Run All Test Cases
 
